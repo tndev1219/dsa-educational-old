@@ -1,0 +1,46 @@
+html{
+  //scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+// risky to use elements vs classes b/c elements tied to seo
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+  font-family: 'Noto Serif';
+}
+
+a,
+li,
+p,
+div {
+  //sans font family
+  font-family: 'Noto Sans';
+}
+
+strong, .strong{
+  //bold sans font family
+  font-family: 'Noto Sans';
+  font-weight: 700;
+}
+
+
+
+
+
+
+

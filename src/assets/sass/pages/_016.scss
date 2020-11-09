@@ -1,0 +1,64 @@
+$green:#018650;
+$white:#ffffff;
+
+#unsubscribe{
+        #error-bg {
+            display: flex;
+            justify-content: center;
+            background-image: url('../../assets/img/016/error_bg@2x.png');
+            background-size: 983px auto;
+            background-position: 20px 50px;
+            background-repeat: no-repeat;
+            height:984px;
+            padding-top: 80px;
+        }
+
+        #error-container{
+            width: 730px;
+            height: 427px;
+            background-color: $white;
+            box-shadow: 0 0 10px  rgba(0,0,0,.20);
+            border-radius: 10px;
+           
+            h1 {
+                font-size: 42px;
+                text-align: center;
+                padding-top: 45px;
+            }
+
+            #error-container-content {
+              
+              padding-top: 11px;
+              padding-right: 189px;
+              padding-bottom: 28px;
+              padding-left: 189px;
+              p {
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+
+              }
+
+            }
+
+            p {
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+
+                a {
+                    font-weight: 700;
+                    color:$green!important;
+                    text-decoration: underline;
+                }
+            }
+
+           
+            
+         }
+        
+  
+
+    
+
+}
