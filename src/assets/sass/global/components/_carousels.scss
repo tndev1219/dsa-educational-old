@@ -1,33 +1,29 @@
 .carousel-large-image-format---controls {
-    position: relative;
-    width: 300px;
-    margin-top: 6vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 4vh;
+    z-index: 0;
     .carousel-control-prev {
-        left: 110px;
-        top: -10px;
         a {
             img {
                 filter: invert(.5) sepia(1);
             }
         }
     }
-    .carousel-control-next {
-        right: 8px;
-        top: -10px;
+    .carousel-control-prev, .carousel-control-next {
+        position: unset;
+    }
+    .carousel-indicators {
+        position: unset;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
 .carousel-large-image-format-indicators {
-    width: 145px;
-    margin-left: 14.5vw;
-    z-index: -1;
     &.carousel-indicators {
-        top: 95%;
-        left: 58px;
-        bottom: 0px;
         li {
             background-color: $primary-green;
             border-radius: 50%;
@@ -35,6 +31,10 @@
             height: 12px;
         }
     }
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex !important;
 }
 
 //LARGE FORMAT MOBILE IMAGE CONTROLS
